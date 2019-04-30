@@ -19,7 +19,7 @@ import (
 	"errors"
 )
 
-// Device represents a registered device participating within the EdgeX Foundry ecosystem
+// Device represents a registered device participating within the EdgeX Foundry ecosystem ecosystem
 type Device struct {
 	DescribedObject
 	Id             string                        `json:"id"`             // ID uniquely identifies the device, a UUID for example
