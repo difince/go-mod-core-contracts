@@ -1,8 +1,6 @@
 linters:
   fast: true
   enable:
-    # typecheck errors due to https://github.com/goadesign/goa/issues/1850,
-    # need to update to goagen >= 1.4.0
     - gosec
 service:
         #  project-path: mysite.com/goproject # vanity import path if needed
