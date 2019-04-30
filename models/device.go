@@ -82,7 +82,7 @@ func (d Device) MarshalJSON() ([]byte, error) {
 	return json.Marshal(test)
 }
 
-// UnmarshalJSON implements the Unmarshaler interface for the Device type add comment
+// UnmarshalJSON implements the Unmarshaler interface for the Device type add comment xaxaxa xaxaxa
 func (d *Device) UnmarshalJSON(data []byte) error {
 	var err error
 	type Alias struct {
